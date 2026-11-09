@@ -1,0 +1,50 @@
+[
+  {
+    "label": "ALS-K1",
+    "rank": 10,
+    "maxIter": 5,
+    "threshold": 4.0,
+    "min_user": 20,
+    "Precision@10": 0.5881,
+    "Recall@10": 0.733,
+    "NDCG@10": 0.8602,
+    "MAP": 0.778,
+    "N_users": 135518
+  },
+  {
+    "label": "ALS-K2",
+    "rank": 10,
+    "maxIter": 5,
+    "threshold": 3.5,
+    "min_user": 50,
+    "Precision@10": 0.7998,
+    "Recall@10": 0.5501,
+    "NDCG@10": 0.8786,
+    "MAP": 0.8032,
+    "N_users": 85181
+  },
+  {
+    "label": "ALS-K3",
+    "rank": 50,
+    "maxIter": 10,
+    "threshold": 4.0,
+    "min_user": 50,
+    "Precision@10": 0.7356,
+    "Recall@10": 0.5768,
+    "NDCG@10": 0.838,
+    "MAP": 0.7433,
+    "N_users": 85115
+  },
+  {
+    "label": "ALS-K4",
+    "rank": 50,
+    "maxIter": 10,
+    "threshold": 3.5,
+    "min_user": 50,
+    "Precision@10": 0.8042,
+    "Recall@10": 0.5526,
+    "NDCG@10": 0.8843,
+    "MAP": 0.8115,
+    "N_users": 85181
+  }
+]
