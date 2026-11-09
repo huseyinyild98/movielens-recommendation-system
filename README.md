@@ -107,6 +107,7 @@ Place the trained models (`svdpp_best_model_100.pkl`, `nmf_best_model_100.pkl`) 
 ```bash
 streamlit run app/streamlit_app.py
 ```
+📖 **Read the full write-up on Medium:** [SVD++ vs NMF vs ALS on 20 Million Movie Ratings](https://medium.com/@yildizhu16/svd-vs-nmf-vs-als-on-20-million-movie-ratings-what-i-learned-building-a-recommender-at-scale-b1d4e3b1ad2c)    
 
 ## Author
 
