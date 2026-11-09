@@ -89,7 +89,7 @@ docker exec namenode hdfs dfs -put /data/rating.csv /user/data/
 
 **3. Train ALS on Spark**
 ```bash
-docker exec spark-master /spark/bin/spark-submit --master spark://spark-master:7077 /spark/<als_script>.py
+docker exec spark-master /spark/bin/spark-submit --master spark://spark-master:7077 /spark/als_model_100.py
 ```
 
 **4. Train SVD++ / NMF**
