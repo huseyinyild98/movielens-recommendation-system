@@ -1,0 +1,21 @@
+# Data and trained models (too large / licensed)
+data/
+*.csv
+*.pkl
+als_recommendations/
+
+# Virtual environment
+movie_env/
+venv/
+.venv/
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+
+# Office temp files
+~$*
